@@ -1,8 +1,8 @@
-#angular2项目如何使用sass
+# angular2项目如何使用sass
 
-##angular/cli支持使用sass
+## angular/cli支持使用sass
 
-####新建工程
+#### 新建工程
 如果是新建一个angular工程采用sass：
 ng new My_New_Project --style=sass
 这样所有样式的地方都将采用sass样式，如果需要使用sass的scss语法，还可以如下方式：
@@ -12,7 +12,7 @@ npm install node-sass --save-dev
 这样就可以实现用sass语法做样式了。
 已有angular-cli工程改为sass
 
-####如果是已经新建了工程，需要切换到sass，则采用如下方法：
+#### 如果是已经新建了工程，需要切换到sass，则采用如下方法：
 首先同样安装sass需要的node-sass包
 npm install node-sass --save-dev 
 然后修改已有项目的.angular-cli.json配置文件：
